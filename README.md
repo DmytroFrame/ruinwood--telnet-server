@@ -10,6 +10,10 @@
 ╩╚═╚═╝╩╝╚╝╚╩╝╚═╝╚═╝═╩╝
 ```
 
+![Ruinwood gameplay screenshot](docs/images/screenshot.png)
+
+*Two players near the camp in a 120×36 terminal: HUD on top, map, hotbar, and the side panel with players and events.*
+
 Every server generates a random island with sea, beaches, meadows, forests, hills, mountains and ruins full of treasure chests. Players connect with an ordinary telnet client, see each other on the map and fight monsters together. The farther you go from the camp, the stronger the monsters get.
 
 ## Features
