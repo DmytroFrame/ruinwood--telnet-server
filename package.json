@@ -1,8 +1,23 @@
 {
-  "name": "telnet-server",
-  "module": "index.ts",
+  "name": "ruinwood",
+  "version": "1.0.0",
+  "description": "Multiplayer roguelike RPG you play over telnet, built with Bun and TypeScript",
+  "keywords": ["telnet", "game", "rpg", "roguelike", "multiplayer", "terminal", "bun", "typescript"],
+  "license": "MIT",
+  "author": "Dmytro Kostyshyn",
+  "module": "src/main.ts",
   "type": "module",
   "private": true,
+  "engines": {
+    "bun": ">=1.1.0"
+  },
+  "scripts": {
+    "start": "bun run src/main.ts",
+    "dev": "bun --watch run src/main.ts",
+    "test": "bun test",
+    "typecheck": "tsc --noEmit",
+    "check": "tsc --noEmit && bun test"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
